@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Slider</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="hero-slider-container">
+        <div class="hero-slider">
+            <!-- Slides -->
+            <div class="slide active">
+                <img src="https://via.placeholder.com/1600x600/3498db/ffffff?text=Slide+1" alt="Slide 1">
+                <div class="slide-content">
+                    <h2>Welcome to Our Website</h2>
+                    <p>Discover amazing features and services</p>
+                    <a href="#" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/1600x600/e74c3c/ffffff?text=Slide+2" alt="Slide 2">
+                <div class="slide-content">
+                    <h2>Innovative Solutions</h2>
+                    <p>We create cutting-edge applications</p>
+                    <a href="#" class="btn">Our Services</a>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="https://via.placeholder.com/1600x600/2ecc71/ffffff?text=Slide+3" alt="Slide 3">
+                <div class="slide-content">
+                    <h2>Join Our Community</h2>
+                    <p>Connect with like-minded individuals</p>
+                    <a href="#" class="btn">Sign Up</a>
+                </div>
+            </div>
+            
+            <!-- Navigation Arrows -->
+            <button class="arrow prev">&larr;</button>
+            <button class="arrow next">&rarr;</button>
+            
+            <!-- Navigation Dots -->
+            <div class="dots-container">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+            </div>
+        </div>
+    </section>
+    
+    <script src="slider.js"></script>
+</body>
+</html>
